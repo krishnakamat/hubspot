@@ -1,0 +1,103 @@
+ ....loading....
+Firebug's log limit has been reached. %S entries not shown.		Preferences	 
+"Reload to activate window console"
+				
+Firebug's log limit has been reached. %S entries not shown.		Preferences	 
+Net panel activated. Any requests while the net panel is inactive are not shown.
+-
+			
+0KB
+	
+(0KB from cache)
+0ms
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+</head>
+<body>
+<div class="wrapper">
+<div class="header">
+<div class="header-left">
+<h1> Dead Frog </h1>
+</div>
+<div class="header-right">
+</div>
+<div class="clear"/>
+</div>
+<ul id="nav">
+</ul>
+<div class="content">
+</div>
+</div>
+<script src="http://deadfrog.digitalfusionstudios.ca/js/menu.js" type="text/javascript">
+</script>
+</body>
+</html>
+#pager form {
+margin:0;
+padding:0 0 10px;
+}
+#pager select {
+margin:0 5px;
+padding:0;
+}
+#pager .spacer {
+color:#CFCFCF;
+padding:0 0.6em;
+}
+#pager .count {
+margin:0 4px;
+width:4em;
+}
+#pager .status {
+margin:0 4px;
+width:8em;
+}
+#pager input.page {
+width:2em !important;
+}
+#pager .arrowleft {
+margin-right:4px;
+vertical-align:middle;
+}
+#pager .arrowright {
+margin-left:1px;
+vertical-align:middle;
+}
+a.sign-out {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-bottomleft:2px;
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-topleft:2px;
+-moz-border-radius-topright:2px;
+background:#006600 none repeat scroll 0 0;
+color:#FFFFFF;
+display:block;
+font-size:1.2em;
+font-weight:bold;
+margin:20px 0 0;
+padding:10px;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+}
+a.sign-out:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-bottomleft:2px;
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-topleft:2px;
+-moz-border-radius-topright:2px;
+background:#009900 none repeat scroll 0 0;
+color:#FFFFFF;
+display:block;
+font-size:1.2em;
+font-weight:bold;
+margin:20px 0 0;
+padding:10px;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+}

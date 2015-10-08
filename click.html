@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script type='text/javascript'>
+      function sum1(){ 
+        var val1 = document.getElementById('userInput1').value;
+		var val2 = document.getElementById('userInput2').value;
+        var temp1 = val1.split("\n");
+		var temp2 = val2.split("\n");
+        for(var i = 0; i < temp1.length; i++) {
+			window.open(temp1[i]);
+			window.open(temp2[i]);
+		} 
+      } 
+    </script>
+  </head>
+  <body>
+    <form id="input">
+      <textarea id="userInput1" rows=30 cols=80></textarea> 
+	  <textarea id="userInput2" rows=30 cols=80></textarea> 
+      <input id="Run" type=Button value="run" onClick="sum1()" />
+    </form>
+  </body>
+</html>

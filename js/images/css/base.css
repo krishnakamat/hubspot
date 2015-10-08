@@ -1,0 +1,688 @@
+body {
+	min-width:800px;
+	background:#FFFFFF;
+	color:#2f2f2f;
+	font:12px/1.5em Arial, Helvetica, sans-serif;
+}
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	color:#403D02;
+	text-decoration:underline;
+}
+a:hover {
+	color:#696400;
+	text-decoration:underline;
+}
+a img {
+	border:0;
+}
+/* ====================== */
+/* Headings         	  */
+/* ====================== */
+h1, h2, h3, h4 {
+	margin-bottom:.5em;
+	line-height:1.4em;
+}
+h2 {
+	font-size:1.7em;
+}
+h3 {
+	margin-bottom:.5em;
+	color:#253033;
+	font-size:1.25em;
+}
+h4 {
+	margin-bottom:.6em;
+	color:#494848;
+	font-size:1.05em;
+}
+h5 {
+	font-size:1.05em;
+}
+h6 {
+	font-size:1em;
+}
+h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover {
+	font-weight:normal;
+}
+/* ====================== */
+/* Tables         		  */
+/* ====================== */
+th {
+	padding:0;
+	text-align:left;
+	vertical-align:top;
+}
+td {
+	padding:0;
+	vertical-align:top;
+}
+/* ====================== */
+/* Forms         		  */
+/* ====================== */
+#form {
+	padding: 0;
+	margin: 0;
+}
+#form div.fieldset {
+	display:block;
+	border: 1px solid #242F15;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+#form div.fieldset h4 {
+	display:block;
+	padding: 5px 10px;
+	font-weight:bold;
+	color: #FFFFFF;
+	background: #242F15;
+}
+#form table {
+	margin: 20px;
+}
+#form td {
+	padding: 0 5px 20px 2px;
+}
+#form label {
+	display:block;
+	font-size:13px;
+	padding-right:30px;
+	font-weight:bold;
+}
+
+.lbl_txt{
+	display:block;
+	font-size:13px;
+	padding-right:10px;
+	font-weight:bold;
+}
+
+.lbl_txt_norm{
+	display:block;
+	font-size:13px;
+	padding-right:10px;
+}
+
+.batch_txt{
+	display:block;
+	font-size:11px;
+	padding: 2px 2px 2px 2px;
+	font-weight:bold;
+}
+
+.batch_txt_norm{
+	display:block;
+	font-size:11px;
+	padding: 2px 2px 2px 2px;
+}
+
+.text_box {
+	border:#C7B2C7 1px solid;
+	padding: 2px 1px;
+	margin-right:10px;
+}
+#form input.xlong {
+	width:500px;
+}
+#form input.long {
+	width:300px;
+}
+#form input.med {
+	width:200px;
+}
+#form input.short {
+	width:100px;
+}
+input text, select {
+	vertical-align:middle;
+	height:22px;
+	width:187px;
+}
+/* ====================== */
+/* Definition Lists       */
+/* ====================== */
+dt {
+	display:block;
+}
+/* ====================== */
+/* Size         		  */
+/* ====================== */
+small {
+	font-size:.8em;
+}
+.red {
+	color: #FF0000;
+}
+big {
+	font-size:1.25em;
+}
+/* ====================== */
+/* Divider         		  */
+/* ====================== */
+hr {
+	border:0;
+	height:1px;
+	overflow:hidden;
+	background:#d3d3d3;
+}
+.nowrap {
+	white-space:nowrap;
+}
+:focus {
+	outline: 0;
+}
+/* ====================== */
+/* Structure         	  */
+/* ====================== */
+
+/* Header */
+.header {
+	height:110px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#575757;
+	/*background:url(images/header_top_bg.gif) repeat-x;*/
+	background: #333333;
+}
+.header-left {
+	float: left;
+	width:581px;
+	height:100px;/*background:url(images/login_box_bg.gif) no-repeat;*/
+}
+.header-left h1 {
+	padding:25px 0 0 25px;
+	font-size:3.5em;
+	font-weight:normal;
+	color: #eee;
+}
+.header-right {
+	float: right;
+	width: 300px;
+	padding:5px 30px 5px 15px;
+	color:#FFF;
+	font-size:.95em;
+}
+.header-right a, .header-right a:visited, .header-right a:hover {
+	color:#FFF;
+	font-weight: bold;
+}
+.header-right .super {
+	float:right;
+	margin-top: 15px;
+	margin-left:1.3em;
+	line-height:1.8em;
+}
+.header-right .link-logout, .header-right .link-logout:hover {
+	color:#FFF;
+}
+/* Footer */
+.footer {
+	/*background:  repeat-x;*/
+    padding:1em 2.8em 1.2em 2.8em;
+	font-size:.95em;
+	text-align:center;
+}
+.footer .legality {
+	float:right;
+	width:35%;
+	min-height:19px;
+	padding-left:22px;
+	text-align:right;
+}
+.footer .program-type {
+	float:left;
+	width:35%;
+	text-align:left;
+}
+/* Breadcrumbs  */
+.breadcrumbs{
+	font-size: 12px;
+	color: #333333;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.breadcrumbs a:link, .breadcrumbs a:visited {
+	color: #000000;
+	padding: 0;
+}
+/* Content */
+.content { /* Main area below the breadcrumb and above the footer */
+	padding:20px 20px 20px 20px;
+	background:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+/* Content Header */
+.content-header {
+	margin-bottom:2em;
+	border-bottom:4px solid #999;
+	padding-bottom:.25em;
+}
+.content-header h3 {
+	margin:0;
+	margin-top:.3em;
+	color:#000;
+	font-size:1.4em;
+	line-height:1.2em;
+}
+.content-header table.grid-header {
+	width:100%;
+}
+/* Directional and spacial */
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.v-top {
+	vertical-align:top;
+}
+.v-middle {
+	vertical-align:middle;
+}
+.v-bottom {
+	vertical-align:bottom;
+}
+.a-left {
+	text-align:left;
+}
+.a-center {
+	text-align:center;
+}
+.a-right {
+	text-align:right;
+}
+/* Color */
+.emph {
+	color:#e66f20;
+} /* This just gives an element a little BAM! */
+/* Other cute things */
+.no-display {
+	display:none;
+}
+.pointer {
+	cursor:pointer;
+}
+/* ====================== */
+/* Sections         		  */
+/* ====================== */
+div.section {
+	display:block;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+div.section .heading table td {
+	padding: 0 5px 0 0;
+}
+div.section button {
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:10px;
+	padding: 1px 3px;
+	border:0px;
+	background:#8A8AAC;
+}
+div.section select {
+	border:#C7B2C7 1px solid;
+	padding: 2px 1px;
+}
+div.section .heading {
+	float:left;
+	width:100%;
+	background: #725D72;
+}
+div.section .sec {
+	background: #666699;
+}
+div.section h4 {
+	padding: 5px 2px;
+	margin:0;
+	font-weight:bold;
+	color: #FFFFFF;
+	border: none;
+}/* ====================== */
+/* Success, notice and error boxes
+-------------------------------------------------------------- */
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+pre 				{ margin: .2em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+/* ====================== */
+/* Form Buttons         */
+/* ====================== */
+
+.add, .save, .cancel, .crop, .continue, .print, .attachment {
+	display: block;
+	padding: 3px 10px;
+	color: #fff;
+	font-weight: bold;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	float: right;
+	margin: 0px;
+	text-transform: uppercase;
+	text-align:center;
+	font-size: 1.0em;
+	text-decoration:none;
+}
+.add {
+	background:#009900;
+}
+.add:hover {
+	background:#009900;
+	color: #fff;
+	text-decoration:none;
+}
+.save {
+	background:#339900;
+	border: none;
+	cursor: pointer;
+}
+.cancel {
+	background:#CCC;
+	margin: 0px 5px;
+}
+.cancel:hover {
+	background:#CCC;
+	color: #fff;
+	text-decoration:none;
+}
+.crop {
+	background:#FF6600;
+}
+.continue {
+	background:#725D72;
+	margin: 0px 5px;
+}
+.print {
+	background:#FF0000;
+	margin: 0px 5px;
+}
+.attachment {
+	background:#006699;
+}
+/* ====================== */
+/* Action Buttons         */
+/* ====================== */
+	
+.edit, .delete, .photo, .video, .no-edit, .start, .finish {
+	display: block;
+	padding: 1px 8px;
+	color: #fff;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	float: left;
+	margin: 0px 2px;
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 0.7em;
+}
+.edit {
+	background: #8AC3D4;
+}
+.edit:hover {
+	background: #66ABBF;
+	color: #fff;
+	text-decoration:none;
+}
+.delete {
+	background: #DC6A6A;
+}
+.delete:hover {
+	background: #C64747;
+	color: #fff;
+	text-decoration:none;
+}
+.photo {
+	background:#006699;
+	color: #fff;
+	text-decoration:none;
+}
+.photo:hover {
+	background:#0066CC;
+	color: #fff;
+	text-decoration:none;
+}
+
+.video {
+	background:#FF9900;
+	color: #fff;
+	text-decoration:none;
+}
+.video:hover {
+	background:#FF9933;
+	color: #fff;
+	text-decoration:none;
+}
+
+.no-edit, .no-edit:hover {
+	background: #cccccc;
+	color: #fff;
+	text-decoration:none;
+}
+
+.start {
+	background:#009900;
+}
+.start:hover {
+	background:#009900;
+	color: #fff;
+	text-decoration:none;
+}
+.finish {
+	background:#006699;
+}
+.finish:hover {
+	background:#006699;
+	color: #fff;
+	text-decoration:none;
+}
+
+/* ====================== */
+/* Gallery                */
+/* ====================== */
+#gallery td {
+	padding: 10px 20px 5px 0;
+}
+
+.contests .entry {
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	margin-bottom: 30px;
+}
+.contests .boy {
+	border-top: 3px solid #6699FF;
+	border-right: 3px solid #6699FF;
+	border-bottom: 3px solid #6699FF;
+	border-left: 3px solid #6699FF;
+	background: #D8E8EB;
+}
+.contests .girl {
+	border-top: 3px solid #FF33FF;
+	border-right: 3px solid #FF33FF;
+	border-bottom: 3px solid #FF33FF;
+	border-left: 3px solid #FF33FF;
+	background: #F9CEF6;
+}
+.contests .entry table {
+	width: 100%;
+}
+.contests .entry td {
+	padding: 10px;
+}
+.contests .entry td img {
+	border: 4px solid #ffffff;
+}
+.contests .boy .enter-contest {
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	background: #006699;
+}
+.contests .girl .enter-contest {
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	background: #FF00FF;
+}
+.contests .enter-contest h3 {
+	color: #ffffff;
+	font-size: 16px;
+	margin: 0;
+}
+.contests .additional {
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	margin-bottom: 30px;
+	background: #eee;
+}
+
+
+.submit-btn2 {
+background:darkgreen none repeat scroll 0 0;
+border:0 none;
+color:#FFFFFF;
+cursor:pointer;
+font-size:12px;
+font-weight:bold;
+padding:4px 12px;
+}
+#tablereg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+#tablereg .formfield {
+	width: 150px;
+}
+#tablereg td {
+	padding: 3px;
+}
+#tablereg button {
+	margin: 0px;
+	padding: 3px;
+	width: 30px;
+}
+.pme  input {
+	margin: 0px;
+	padding: 2px;
+}
+#challengeform td {
+	padding: 3px;
+}
+.labl{
+text-align:left;
+font-weight:bold;
+}
+
+input.formfield{
+border:1px solid #B5B5B5;
+height:20px;
+font-size:1.0em;
+width:182px !important;
+}
+
+input.phone{
+border:1px solid #B5B5B5;
+height:20px;
+font-size:1.0em;
+width:123px !important;
+}
+input.areacode{
+border:1px solid #B5B5B5;
+height:20px;
+font-size:1.0em;
+width:50px !important;
+}
+
+input.namefield{
+border:1px solid #B5B5B5;
+height:20px;
+font-size:1.0em;
+width:87px !important;
+}
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url('info.png');
+}
+
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url('success.png');
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url('warning.png');
+}
+
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('error.png');
+}
+
+input, radio {
+	margin-left: 5px;
+	
+}

@@ -1,0 +1,207 @@
+#nav {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#000000 none repeat scroll 0 0;
+font-family:Arial,Helvetica,sans-serif !important;
+font-size:12px !important;
+padding-left:10px;
+}
+#nav li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+position:relative;
+text-align:left;
+}
+#nav li.over {
+z-index:99;
+}
+#nav li.active {
+z-index:999;
+}
+#nav a, #nav a:hover {
+display:block;
+text-decoration:none;
+}
+#nav span {
+cursor:pointer;
+display:block;
+}
+#nav a {
+line-height:1.3em;
+}
+#nav li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(images/nav1_sep.gif) no-repeat scroll 100% 0;
+float:left;
+}
+#nav li.active {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#333333 none repeat scroll 0 0;
+color:#FFFFFF;
+font-weight:bold;
+margin-left:-1px;
+}
+#nav li.active em {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#333333 none repeat scroll 0 0;
+display:block;
+height:27px;
+position:absolute;
+right:-1px;
+top:0;
+width:3px;
+}
+#nav a {
+color:#FFFFFF;
+float:left;
+line-height:35px;
+padding:0 14px;
+font-size:14px;
+font-weight:bold;
+}
+#nav li.over a {
+color:#CCCCCC;
+}
+#nav ul li, #nav ul li.active {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+float:none;
+height:auto;
+margin:0;
+}
+#nav ul a, #nav ul a:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+float:none;
+line-height:1.3em;
+padding:0;
+}
+#nav ul li.over a, #nav ul li.over a:hover #nav ul a, #nav li.active li {
+font-weight:normal;
+}
+#nav ul {
+left:-10000px;
+margin-top:-7px;
+padding-bottom:3px;
+padding-top:0;
+position:absolute;
+top:34px;
+width:189px;
+}
+#nav li.over ul {
+left:-1px;
+}
+#nav li.over ul ul {
+left:-10000px;
+}
+#nav li.over ul li.over ul {
+left:100px;
+}
+#nav ul li {
+padding:0 2px;
+}
+#nav li.over ul a, #nav ul li.active a, #nav ul li a, #nav ul li a:hover {
+color:#333333;
+}
+#nav ul span, #nav ul li.last li span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(images/nav2_link_bg.gif) repeat-x scroll 0 100%;
+padding:5px 15px;
+}
+#nav ul li.last span, #nav ul li.last li.last span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+}
+#nav ul li.last {
+padding-bottom:3px;
+}
+#nav ul li.parent a, #nav ul ul li.parent a {
+background-image:url(/catalog/admin/images/nav2_parent_arrow.gif);
+background-position:right bottom;
+background-repeat:no-repeat;
+}
+#nav ul ul ul {
+left:-10000px;
+}
+#nav li.over ul li.over ul ul {
+left:-10000px;
+}
+#nav li.over ul li.over ul li.over ul {
+left:100px;
+}
+#nav ul ul {
+left:100px;
+padding-top:2px;
+top:13px;
+}
+#nav ul li.parent li a {
+background-image:none;
+}
+#nav ul li.parent li li a {
+background-image:none;
+}
+#nav ul ul li.parent a {
+background-image:url(images/nav2_parent_arrow.gif);
+background-position:right bottom;
+background-repeat:no-repeat;
+}
+#nav:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+line-height:0;
+overflow:hidden;
+}
+#nav ul li {
+-moz-background-clip:border !important;
+-moz-background-inline-policy:continuous !important;
+-moz-background-origin:padding !important;
+background:transparent none repeat scroll 0 0 !important;
+padding:0 !important;
+}
+#nav ul {
+border:1px solid #C9AEC7 !important;
+padding-bottom:0 !important;
+padding-top:0 !important;
+}
+#nav ul ul {
+border:1px solid #B6B6B6;
+}
+#nav ul li a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+}
+#nav ul li a:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#EEEEEE none repeat scroll 0 0;
+}
+#nav ul, #nav ul li, #nav ul a, #nav ul a span {
+}
+#nav ul li.parent {
+margin-bottom:-3px;
+}
+#nav ul li.parent li.parent {
+margin:0;
+}

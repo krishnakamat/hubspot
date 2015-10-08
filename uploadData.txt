@@ -1,0 +1,14 @@
+<?php
+
+include("config.php");
+
+$dataUpdate="load data local infile 'personal.csv' into table webadmin fields terminated by ','
+lines terminated by '\n'
+(empID,name,dob,experience,join_date,DOL)";
+
+
+
+echo $dataUpdate;
+mysql_query($dataUpdate) or die(mysql_error());
+mysql_query($dataUpdate1) or die(mysql_error());
+?>

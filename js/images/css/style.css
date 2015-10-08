@@ -1,0 +1,147 @@
+body {margin: 0px; padding: 10px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000;
+}
+h1, h2, h3, h4, h5, h6, span, p, ul, li, form, default{ margin:0px; padding:0px;}
+
+.form-hea{ font-size:23px; font-weight:bold; color:#FFFFFF; line-height:35px;}
+.input-small{ width:166px; height:17px; color:#000000; border:#828688 solid 1px; background-color:#FFFFFF; padding:2px;}
+.button-style{ background-color:#656565; color:#FFFFFF; text-align:center; border:#828688 solid 1px;height:23px; padding-bottom:2px;}
+
+
+
+#main{ width:980px; height:auto; margin:0px auto; padding:0px;}
+
+
+
+/*top-----------------------------------------------*/
+
+#top{ width:980px; height:auto; float:left;}
+#top-logo{ width:690px; height:63px; float:left; padding-top:17px;}
+#top-right{ width:270px; height:55; float:left; margin-bottom:5px; padding:10px; background-color:#28c7f2;}
+#menu-main{ width:980px; height:42px; float:left;}
+#menu-main-left{ width:5px; height:42px; float:left;}
+#menu-main-mid{ width:970px; height:42px; float:left; background-color:#0e92cd;}
+#menu-left{width:900px; height:42px; float:left;}
+.menu{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:lighter; color:#FFFFFF;}
+.menu ul{ list-style:none; margin:0px; padding:0px;}
+.menu ul li{ margin:0px; padding:0px; line-height:42px; float:left; }
+.menu ul li a{ text-decoration:none;color:#FFFFFF; padding:0px 22px; }
+.menu ul li a:hover{ text-decoration:underline; }
+
+#menu-right{ width:105px; height:42px; float:right; line-height:42px; text-align:center;}
+#menu-right a{ padding:0px 5px; text-decoration:none;color:#000000;}
+#menu-right a:hover{ text-decoration:underline;color:#000000;}
+
+#menu-main-right{ width:5px; height:42px; float:left;}
+
+/*/////////////////////////////////top-----------------------------------------------*/
+
+
+/*main-content-----------------------------------------------------------------------------------*/
+
+
+#main-content{ width:980px; height:auto; float:left; padding:8px 0px;}
+
+/*left-----------------------------------------------------------------------------------*/
+#left-main{ width:245px; height:auto; float:left; text-align:center; border:#e0f1f9 solid 1px; margin-right:5px; padding-bottom:5px;}
+
+#left-top{ width:244px; height:57px; background-color:#daeef7; border:#cbe7f5 solid 1px; text-align:center; line-height:28px; color:#b80c0c; font-weight:bold;}
+
+.left-text{ width:245px; height:auto;}
+.left-text img{ margin:0px; padding:0px;}
+.left-text h1{   background-color:#4ea5e2; line-height:30px; margin:2px 0px; font-size:14px; font-weight:bold; color:#FFFFFF; text-align:left; padding-left:30px; }
+.left-text a{ color:#000000; line-height:26px; border-bottom: #000000 dotted 1px; text-decoration:none; width:97%; display:block; padding:0px; margin:0px; text-align:left;}
+.left-text a:hover{ color:#5aa5d9; text-decoration:none; }
+
+/*///////////////////////////////////left-----------------------------------------------------------------------------------*/
+
+#right-main{ width:724px; height:auto; float:right;  border:#e0f1f9 solid 1px; padding:0px 0px 4px 0px; }
+#right-top{ line-height:30px;width:708px; padding-left:15px; background-color:#f2f0f0; font-size:16px; font-weight:bold; color:#b80c0c; text-align:left; margin-left:1px; height:auto; float:left; }
+#right-top-text{ width:716px; margin-left:4px; margin-right:4px; height:auto; float:left; padding:22px 0px; line-height:23px; color:#0d780f;  }
+#right-mid-content{width:716px;margin-left:4px; margin-right:4px; height:auto; float:left;}
+#right-mid-left{width:527px; height:auto; float:left;}
+#right-mid-right{width:180px;margin-left:7px;  height:auto; float:left;}
+
+.right-text{border:#e0f1f9 solid 1px; padding-bottom:4px; text-align:center;}
+.right-text h1{background-color:#4ea5e2; line-height:30px;font-size:14px; font-weight:bold; color:#FFFFFF; text-align:center;}
+.right-text p{ padding:10px; text-align:left;}
+.tabel-hea{ color:#FFFFFF; font-weight:bold;}
+.tabel-text{ color:#FFFFFF; font-weight:bold; padding-left:3px; text-align:left;}
+#right-mid-line{width:716px;height:1px; float:left; margin:15px 0px; font-size:1px; background-color:#868282;}
+#right-mid-bott{width:700px; height:auto; float:left; background-color:#f3f9fc; padding:8px;}
+.right-content{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#1c1c1c; text-align:left;}
+.right-content h1{font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:18px; color:#047804; text-align:left; font-weight:bold; border-bottom:#044f74 dotted 1px; line-height:33px;}
+.right-content p{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#1c1c1c; text-align:left; line-height:25px;border-bottom:#044f74 dotted 1px;}
+
+/*//////////////////////////////main-content------------------------------------------------*/
+
+
+/*fotter-----------------------------------------------------------------------------------*/
+#fotter-main{ width:978px; height:68px; float:left; background-repeat:repeat-x; border:#d3e9f4 solid 1px; text-align:center; line-height:68px; color:#545454;}
+
+
+.submit-btn {
+background:#000000 none repeat scroll 0 0;
+border:0 none;
+color:#FFFFFF;
+cursor:pointer;
+font-size:12px;
+font-weight:bold;
+padding:4px 12px;
+margin-top:15px;margin-bottom:25px;
+}
+
+.form_field {
+font-family:Verdana;
+border:1px solid #CCCCCC;
+padding:4px 4px 4px 4px;
+text-align:left;
+font-size:12px;
+width:150px
+}
+
+
+.h_error
+{
+	font-family:Arial;
+	font-size:14px;
+	line-height:15px;
+	color:#FF0000;
+	#background-color:#000000;
+}
+	
+.h_success
+{
+	font-family:Arial;
+	font-size:15px;
+	line-height:15px;
+	color:#00FF00;
+	#background-color:#000000;
+}	
+
+.welcomeAdmin {
+color:#047804;
+font-family:"Trebuchet MS",Helvetica,sans-serif;
+font-size:18px;
+font-weight:bold;
+line-height:33px;
+text-align:left;
+}
+
+.welcomeAdmin {
+color:#B80C0C;
+font-family:"Trebuchet MS",Helvetica,sans-serif;
+font-size:18px;
+font-weight:bold;
+line-height:33px;
+text-align:center;
+}
+
+.submit-btn2 {
+background:darkgreen none repeat scroll 0 0;
+border:0 none;
+color:#FFFFFF;
+cursor:pointer;
+font-size:12px;
+font-weight:bold;
+padding:4px 12px;
+}

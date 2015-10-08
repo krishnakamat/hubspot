@@ -1,0 +1,17 @@
+hr.pme-hr { border: 0px solid; padding: 0px; margin: 0px; border-top-width: 1px; height: 1px; }
+table.pme-main { border: #ffffff 1px solid; border-collapse: collapse; border-spacing: 0px; width: 100%; }
+table.pme-navigation { border: #ffffff 0px solid; border-collapse: collapse; border-spacing: 0px; width: 100%; }
+td.pme-navigation-0, td.pme-navigation-1 { white-space: nowrap; }
+th.pme-header { border: #ffffff 1px solid; padding: 4px; background: #333333; }
+th.pme-header a:link { color:#FFFFFF; text-decoration: none; }
+th.pme-header a:visited { color:#FFFFFF; text-decoration: none; }
+th.pme-header a:hover { color:#cccccc; }
+td.pme-key-0, td.pme-value-0, td.pme-help-0, td.pme-navigation-0, td.pme-cell-0, td.pme-key-1, td.pme-value-1, td.pme-help-0, td.pme-navigation-1, td.pme-cell-1, td.pme-sortinfo, td.pme-filter { border: #004d9c 1px solid; padding: 3px; }
+td.pme-buttons { text-align: left; }
+td.pme-message { text-align: center; }
+td.pme-stats { text-align: right; }
+.pme-add { display:none; }
+.pme-copy { display:none; }
+.pme-delete { display:none; }
+label { width: 80px; text-align: right; float: left; }
+.formerrortext { color:#FF0000; font-family:Tahoma, Verdana, Arial, sans-serif, serif; font-size:10px; font-weight:bold; }

@@ -1,0 +1,584 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+body {
+    background: url("../images/bg-pattern.jpg") repeat;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.5;
+	margin:0px;
+	padding:0px;
+}
+
+.header {
+    background: url("../images1/header_bg.png") repeat 0 0;
+    padding-bottom: 22px;
+}
+
+img{
+	max-width:100%;
+	vertical-align:bottom;
+	height:auto;
+}
+
+.custom-logo {
+    display: inline-block;
+    max-width: 213.4px;
+    padding: 32px 10px 10px 42px;
+    float: left;
+}
+.page-center {
+    float: none;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.header-left img {
+    vertical-align: middle;
+}
+.header-left p b {
+    font-weight: normal;
+    color: #fff;
+    margin-left: 6px;
+    letter-spacing: -0.2px;
+}
+.header-left p {
+    margin: 0 0 2px 0px ;
+}
+.header-left {
+    background: url(../images1/divider.png) no-repeat left center;
+    display: inline-block;
+    padding: 3px 0 6px 24px;
+    margin-left: 11px;
+    margin-top: 23px;
+}
+
+.zone {
+  clear: both !important;
+  display: block !important;
+  padding: 0 !important;
+
+}
+
+.zone span{
+	  color:#8b8b8b !important;
+}
+
+.header-right {
+    display: inline-block;
+    position: absolute;
+    padding: 30px 58px 0 0;
+    right: 0;
+    top: 0;
+}
+
+.header-right form {
+    border: 1px solid #5C5C5C;
+    padding: 7px 7px 7px 20px;
+    border-radius: 25px;
+}
+.header-right button {
+    background: url(../images1/search1.png) no-repeat center center;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px;
+    margin-right: 4px;
+    width: 24px;
+}
+.header-right input::-moz-placeholder {
+    opacity: 1;
+    font-weight: 400;
+}
+.header-right input::-webkit-placeholder {
+    opacity: 1;
+    font-weight: 400;
+}
+.header-right input::placeholder {
+    opacity: 1;
+    font-weight: 400;
+}
+.header-right input {
+    background: none;
+    border: none;
+    font-family: raleway;
+    color: #646464;
+    min-width: 243px;
+    font-size: 16px;
+    font-family: sans-serif;
+    outline:none;
+}
+.header-bottom {
+  background: none repeat scroll 0 0 #1e1f1b;
+	 height: auto;
+  position: relative;
+  z-index: 9999;
+}
+.header-bottom .page-center > ul , 
+.header-bottom .page-center > ul ul {
+    list-style: outside none none;
+    margin: 0;
+}
+
+.header-bottom .page-center > ul ul {
+  background: #fff;
+    display: none;
+    height: 0;
+    min-width: 250px;
+    padding: 10px;
+    position: absolute;
+    border-top: 5px solid #8AC750;
+    box-shadow: 0 0 3px 0px #696969;
+    -o-box-shadow: 0 0 3px 0px #696969;
+    -webkit-box-shadow: 0 0 3px 0px #696969;
+    -moz-box-shadow: 0 0 3px 0px #696969;
+}
+
+.header-bottom .page-center > ul li:hover ul {
+  height: auto;
+  visibility: visible;
+  display:block;
+}
+.header-bottom .page-center > ul li {
+    float: left;
+}
+
+.header-bottom .page-center > ul li a {
+    color: #818181;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    margin-right: 20px;
+}
+.header-bottom .page-center > ul li:hover > a {
+    color: #8ac750;
+}
+
+.header-bottom .page-center > ul {
+  display: inline-block;
+  padding-left: 41px;
+}
+.header-bottom .page-center > ul li ul li {
+    float: none;
+}
+.header-bottom .page-center > ul li a img {
+    margin-right: 4px;
+    vertical-align: top;
+}
+.header-bottom .page-center > ul ul li a:before {
+    content: "";
+    font-size: 12px;
+    font-weight: normal;
+    left: 10px;
+    position: absolute;
+    top: 9px;
+    background: url(../images1/app-design1-157.png);
+    width: 6px;
+    height: 9px;
+    transition: 300ms left linear;
+  -moz-transition: 300ms left linear;
+  -o-transition: 300ms left linear;
+  -webkit-transition: 300ms left linear;
+}
+.header-bottom .page-center > ul ul li a {
+    margin: 0;
+    padding: 2px 15px 2px 29px;
+    position: relative;
+}
+.header-bottom .page-center > ul ul li:HOVER a:before {
+    left: 15px;
+    transition: 300ms left linear;
+  -moz-transition: 300ms left linear;
+  -o-transition: 300ms left linear;
+  -webkit-transition: 300ms left linear;
+}
+.header-bottom .header-right {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.header-bottom .header-right a {
+    color: #A9A9A8;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    padding: 0 3px;
+}
+.header-bottom .header-right {
+    padding: 0;
+    margin: 21px 56px 19px 21px ;
+    display: inline-block;
+    line-height: 1;
+    font-size: 11px;
+    color: #D5D5D4;
+}
+
+.header-bottom .header-right a:hover {
+    color: #fff;
+}
+.header-bottom .page-center > ul ul li:first-child {
+    position: relative;
+}
+.header-bottom .page-center > ul ul li:first-child:before {
+    content: '';
+    background: url(../images1/app-design1-148.png);
+    width: 20px;
+    height: 14px;
+    position: absolute;
+    top: -27px;
+    left: 16px;
+}
+/****TEMPORARY************/
+.addData {
+  color: #000 !important;
+  font-family: arial;
+  font-size: 10px;
+}
+.sortable{
+width:100%;
+}
+#projectReports .sortable tr {
+color: #000;
+
+}
+#projectReports .sortable tr:hover {
+color: #fff;
+
+}
+/****************monish*******************/
+
+.leave_tracking_table,
+.leave_status_table,
+.leave_tracking_container table {
+	max-width: 800px;
+    width: 100%;
+	border: 1px solid #e4e4e4;
+	border-spacing: 0 !important;
+}
+
+.leave-calendar-wrapper .leave_tracking_container table {
+  border: 1px solid #e4e4e4;
+  border-spacing: 0 !important;
+  display: block;
+  max-width: 100%;
+  overflow-x: scroll;
+  width: auto;
+}
+
+table.admin-leave-status-table {
+	max-width: none;
+}
+
+.leave_tracking_container .heading td{
+  background: none repeat scroll 0 0 #9bbb59;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-bottom-color: #FFF !important;
+}
+
+
+
+.leave_tracking_container .heading {
+	border: 1px solid #9bbb59;
+}
+
+
+.leave_tracking_container .heading td{
+	border: none;
+}
+
+.leave_tracking_container .heading h1  {
+	font-family: open sans;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 24px;
+	text-align: center;
+}
+
+.leave_tracking_container td{
+  color: #818181;
+  font-family: open sans;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 5px 10px;
+  border: 1px solid #e4e4e4;
+  font-family: open sans;
+}
+
+.leave-calendar-wrapper .leave_tracking_container td.status-3 {
+	color: #FFF;
+	background-color: #73D601;
+	font-weight: bold;
+}
+
+.leave-calendar-wrapper .leave_tracking_container td.status-1 {
+	color: #FFF;
+	background-color: #f09018;
+	font-weight: bold;
+}
+
+.leave-calendar-wrapper .leave_tracking_container td.status-2 {
+	color: #FFF;
+	background-color: #ff1612;
+	font-weight: bold;
+}
+
+.leave-calendar-wrapper .leave_tracking_container .status-1,
+.leave-calendar-wrapper .leave_tracking_container .status-2,
+.leave-calendar-wrapper .leave_tracking_container .status-3 {
+	position: relative;
+}
+.leave-calendar-wrapper .leave_tracking_container td .type-1 {
+	  background-color: #000000;
+      color: #ffffff;
+      display: block;
+      left: 0;
+      min-height: 5px;
+      position: absolute;
+      top: -1px;
+      width: 100%;
+	 }
+
+
+
+.leave_tracking_container td.content-headings {
+	background: #F3F1F2;
+	font-weight: bold;
+}
+
+
+.leave-calendar-wrapper #content-headings2 {
+	background: #F3F1F2;
+	font-weight: normal;
+	width: 76px;
+}
+
+.leave-calendar-wrapper #content-headings2.Sat,
+.leave-calendar-wrapper #content-headings2.Sun {
+  background-color: #cccccc;
+}
+
+.leave_status_table .content-headings td {
+	background: #F3F1F2;
+	font-size: 20px;
+}
+
+.leave_tracking_container-wrapper {
+	margin: 30px auto;
+    max-width: 960px;
+}
+
+.admin-leave-status,
+.leave-calendar-wrapper {
+	margin: 30px auto;
+    max-width: 95%;
+	background: #FFF
+}
+
+
+.leave-calendar-wrapper {
+	margin: 30px auto;
+    max-width: 95%;
+	background: #FFF
+}
+
+
+.leave_tracking_container {
+  background: none repeat scroll 0 0 #ffffff;
+  padding: 40px;
+}
+
+.leave_tracking_table  tr,
+.leave_tracking_table  td {
+	border: none;
+}
+.applyemployeeleaves input[type="text"],
+.leave_tracking_table input[type="text"],
+.leave_tracking_table textarea,
+.applyemployeeleaves select,
+.applyemployeeleaves textarea,
+.leave_tracking_container textarea{
+	color: #818181;
+    font-family: open sans;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px;
+	width: 97%;
+	border: 1px solid #e4e4e4;
+	background: #FCFCFC
+}
+
+.leave_tracking_container textarea {
+	width: 92%
+}
+
+.admin-leave-status #approve {
+	color: #73d601
+}
+
+.leave_tracking_table textarea {
+	width: 96%;
+}
+
+.leave_tracking_table label {
+	 padding: 0 23px 0 0;
+
+}
+
+.leave_tracking_container input[type="submit"]{
+    background: none repeat scroll 0 0 #9bbb59;
+    border: medium none;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 18px;
+    padding: 8px 20px 10px;
+    cursor: pointer;
+	margin-bottom: 10px;
+	float: right;
+ }
+ 
+ .admin-leave-status input[type="submit"].pending {
+	background: #f09018;
+ }
+ 
+ .admin-leave-status input[type="submit"].rejected {
+	background: #ff0000;
+ }
+ 
+ .admin-leave-status input[type="submit"].approved {
+	background: #73d601;
+ }
+ 
+ .admin-leave-status td {
+	text-align: left;
+ }
+ 
+ .leave_tracking_container  input[type="submit"]{
+    background: none repeat scroll 0 0 #9bbb59;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 18px;
+    padding: 8px 20px 10px;
+    cursor: pointer;
+	margin-bottom: 10px;
+	float: right;
+ }
+ 
+ .leave_tracking_container.adminLeaveTracking input[type="submit"] {
+	background: #F09018;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px 5px 6px;
+    cursor: pointer;
+	margin: 0;
+	float: right;
+ }
+ 
+ .leave_tracking_container.adminLeaveTracking  input[type="radio"] {
+	margin: 7px 0 0;
+}
+ 
+ 
+#lead input {
+    float: left !important;
+    margin: 0 0 0 8px;
+    max-width: none;
+    width: 30% !important;
+}
+
+
+#lead input:first-child {
+  margin: 0 !important;
+}
+
+
+
+.success-message {
+  background: #95F4C0;
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+
+
+.success-message h3 {
+  background: url("../images/success-icon.png") no-repeat scroll left center;
+  color: #49B271;
+  display: inline-block;
+  font-family: open sans;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0;
+  padding: 20px 5px 20px 30px;
+}
+
+.error-message {
+  background: #ffc9c9;
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+
+
+
+.error-message h3 {
+  background: url("../images/addtimesmall.png") no-repeat scroll left center;
+  color: #D20807;
+  display: inline-block;
+  font-family: open sans;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0;
+  padding: 20px 5px 20px 30px;
+}
+
+
+.leave_tracking_container .approved {
+  color: #73D601;
+}
+
+.leave_tracking_container .rejected {
+  color: #ff1612;
+}
+
+.leave_tracking_container .pending {
+  color: #F09018;
+}
+
+.leave_tracking_container .cancelled {
+  opacity: 0.5;
+}
+
+
+.leave_tracking_container .heading.pending td {
+  background: #F09018;
+  border: 1px solid #F09018;
+}
+
+.leave_tracking_container .heading.rejected td {
+  background: #ff1612;
+  border: 1px solid #ff0000;
+}
+
+.leave_tracking_container .heading.approved td {
+  background: #73D601;
+  border: 1px solid #73D601;
+}
+
+.leave_tracking_container .heading.cancelled2 td {
+  background: #BFBFBF;
+  border: 1px solid #BFBFBF;
+}
+
+
+

@@ -1,0 +1,57 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	MIN-WIDTH: 800px; BACKGROUND: #fff; FONT: 12px/1.5em Arial, Helvetica, sans-serif; COLOR: #2f2f2f
+}
+.clear {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 0px
+}
+#page-login {
+	BACKGROUND: #ffffff; TEXT-ALIGN: center
+}
+.login-container {
+	BACKGROUND: url(../images/login_box_bg.gif) #e5e4d2 no-repeat; MARGIN: 120px auto 10px; WIDTH: 580px; PADDING-TOP: 40px; HEIGHT: 230px; TEXT-ALIGN: center
+}
+.login-container H1 {
+	DISPLAY: block; FONT-SIZE: 28px; MARGIN-LEFT: 10px; COLOR: #fff; TEXT-ALIGN: left
+}
+.login-footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 580px; PADDING-TOP: 0px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.login-box {
+	DISPLAY: block; PADDING-TOP: 65px; POSITION: relative
+}
+.login-form {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 10px; PADDING-BOTTOM: 30px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.login-form .input-box {
+	FLOAT: left; MARGIN: 5px 0px 10px; WIDTH: 40%
+}
+.login-form .username {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.login-form .password {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.login-form .input-box .input-text {
+	WIDTH: 100%
+}
+.login-form LABEL {
+	FONT-WEIGHT: bold; COLOR: #666
+}
+.login-form #message {
+	COLOR: #ff0000; HEIGHT: 20px
+}
+.login-form #error {
+	MARGIN: 0px
+}
+.login-form #error P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(images/error-msg.png) no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #ff0000; PADDING-TOP: 5px; HEIGHT: 34px; TEXT-ALIGN: left
+}
+.login-form .submit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.login-form .submit .submit-btn {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BACKGROUND: #000; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 4px; BORDER-RIGHT-WIDTH: 0px
+}

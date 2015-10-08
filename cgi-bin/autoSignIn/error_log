@@ -1,0 +1,6 @@
+[29-Sep-2014 16:35:24] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'No OpenID Server found at https://www.google.com/accounts/o8/id' in /home2/thewebpl/public_html/autoSignIn/openid.php:538
+Stack trace:
+#0 /home2/thewebpl/public_html/autoSignIn/openid.php(671): LightOpenID->discover()
+#1 /home2/thewebpl/public_html/autoSignIn/index.php(14): LightOpenID->authUrl()
+#2 {main}
+  thrown in /home2/thewebpl/public_html/autoSignIn/openid.php on line 538
